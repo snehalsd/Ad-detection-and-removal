@@ -19,6 +19,6 @@ public class RemoveAds {
 			File file = new File("videoOutput.rgb");
 			detectLogos detectObj = new detectLogos(file, file.length()/(480*270*3));
 		}
-		//System.out.println("Summarization Complete!");
+
     }
 }
